@@ -1,2 +1,2 @@
 # Super-Diamond-Roblox
-Hello This is my Roblox Version
+I Created This Roblox. If you wana use my roblox download it here: not built
