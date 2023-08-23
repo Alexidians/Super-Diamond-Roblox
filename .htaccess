@@ -1,1 +1,3 @@
 IndexDirectory index.html
+
+ErrorDocument 500 https://alexidians.github.io/Super-Diamond-Roblox/500.html
