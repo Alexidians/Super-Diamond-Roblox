@@ -1,0 +1,33 @@
+<style>
+.buttonRight {
+  float: right;
+}
+
+#signupButton {
+  background-color: green;
+  color: white;
+}
+</style>
+<script>
+function signup() {
+ var roblox = open("https://www.roblox.com")
+ roblox.alert("Our System is not Smart Enough to sign Up. Sign up on the Roblox Site")
+}
+
+function home() {
+ document.getElementById("PageFrame").src = "home.html"
+}
+
+function discover() {
+ document.getElementById("PageFrame").src = "games/games.html"
+}
+
+function login() {
+ document.getElementById("PageFrame").src = "login.html"
+ if(confirm("Would you Like to Use Cookie Login")) {
+  document.getElementById("PageFrame").src = "cookielogin.html"
+ }
+}
+</script>
+<div id="menu"><p><button onclick="home()">Home</button> <button onclick="discover()">Discover</button><button onclick="signup()" class="buttonRight" id="signupButton">Sign Up</button> <button onclick="login()" class="buttonRight" id="loginButton">Login</button></p></div>
+<p><iframe width="100%" height="100%" id="PageFrame" src="games/games.html"></iframe></p>
