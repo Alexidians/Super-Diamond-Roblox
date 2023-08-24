@@ -1,0 +1,19 @@
+{
+
+  "description": "Reminds You About Super Diamond Roblox When Visiting The Roblox Website aka roblox.com",
+  "manifest_version": 2,
+  "name": "Super Diamond Roblox Reminder When Visiting Roblox",
+  "version": "1.0",
+  "homepage_url": "https://alexidians.github.io/Super-Diamond-Roblox/extension-download/Super-Diamond-Roblox-Reminder-When-Visiting-Roblox.html",
+  "icons": {
+    "70": "icons/border-70.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com*"],
+      "js": ["remind.js"]
+    }
+  ]
+
+}
